@@ -1,0 +1,22 @@
+.box1 {
+    margin-bottom: 10px;
+}
+
+.container .row .col-12 h2 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+.container .row .col-12 .title {
+    margin-top: 10px;
+    background-color: rgb(252, 110, 85);
+    margin-left: 5px;
+    border-radius: 0.3em;
+}
+
+.title h2 {
+    font-weight: bolder;
+}

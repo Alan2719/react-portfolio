@@ -1,0 +1,100 @@
+[
+    {
+      "id": 1,
+      "projectName": "Password Generator",
+      "projectDescription": "The purpose of this activity was to create a password generator. The user is able to decide which type of characters the password will have (uppercase letters, lowercase letters, numbers and special characters). The user is also able to decide the length of the password between 8 to 120 characters.",
+      "image": "../Images/password.jpg",
+      "url": "https://alan2719.github.io/PasswordGenerator/index.html"
+    },
+    {
+        "id": 2,
+        "projectName": "General Culture Quiz",
+        "projectDescription": "In this activity, a general culture quiz was created. The player only has 20 seconds to answer 5 questions. Every time a question is correct , the player earns 5 extra seconds. If the answer is incorrect, the player looses 5 seconds. The final score is the seconds left in the timer. The users are able to save their score by typing your name.",
+        "image": "../Images/test.png",
+        "url": "https://alan2719.github.io/GeneralCultureQuiz/index.html"
+    },
+    {
+        "id": 3,
+        "projectName": "Day Planner",
+        "projectDescription": "The aim of this activity was to create a day planner to use it in your daily work. With this planner you are able to schedule your to do list per hour as well as modify or erase them once you have finished. The colors indicate if you are on time or is to late to late to perform the task.",
+        "image": "../Images/planner.jpg",
+        "url": "https://alan2719.github.io/DayPlanner/index.html"
+    },
+    {
+        "id": 4,
+        "projectName": "Weather Dashboard",
+        "projectDescription": "The purpose of this activity was to create a weather dashboard using the OpenWeather API. By searching the city, you are able to view the current temperature, wind speed, UV index, and Humidity. Also, you are able to visualize a 5 day forecast. The cities you have already searched are stored in case you want to check them again.",
+        "image": "../Images/weather.jpeg",
+        "url": "https://alan2719.github.io/WeatherDashboard/index.html"
+    },
+    {
+        "id": 5,
+        "projectName": "Band Tracker",
+        "projectDescription": "In our first project, my team and I created the Band Tracker website. In this website you are able to create an account and login to the site. The principal purpose of this site is to look for your favorite bands and have some information of them like the monthly listeners, playcount and the upcoming events. You are able to follow or unfollow your favorite artist. Finally, you can be redirected to another site to buy tickets from the next concert.",
+        "image": "../Images/band-tracker.png",
+        "url": "https://alan2719.github.io/BandTracker/index.html"
+    },
+    {
+        "id": 6,
+        "projectName": "Team Generator",
+        "projectDescription": "The aim of this application is to create an organization chart in which the user can create three types of positions, a manager, an engineer and an intern. Using the npm package inquirer, the user is asked fills the worker profile with different information depending of the position. At the end, an html file is created with the organization chart.",
+        "image": "../Images/team-generator.jpg",
+        "url": "https://github.com/Alan2719/team-generator"
+    },
+    {
+        "id": 7,
+        "projectName": "Note Taker",
+        "projectDescription": "The purpose of this task was to create a note taker. This is the first activity in which a server was used as well as NodeJs, and express to develop the backend. The application lets the user to save notes. When a note is no longer useful, you can delete it. The deployment of this application was made in Heroku.",
+        "image": "../Images/noteTaker.png",
+        "url": "https://shrouded-thicket-71970.herokuapp.com/"
+    },
+    {
+        "id": 8,
+        "projectName": "Readme Generator",
+        "projectDescription": "In this task a readme file generator was created. When the application is running, the user needs to insert the title of the readme file, description, installation, usage, license, and some other questions. In this case, the package inquirer is used. Also, promises are used to the application run correctly.",
+        "image": "../Images/readme.png",
+        "url": "https://github.com/Alan2719/ReadmeGenerator"
+    },
+    {
+        "id": 9,
+        "projectName": "Employee Tracker",
+        "projectDescription": "In this application, a company database was created. The database contains 3 tables, department, position, and employee. Using inquirer and MySQL, the user is able to create new departments, roles, and insert new employees to the database. The application is also able to display just the information the user want to see intercacting with the database.",
+        "image": "../Images/employeesDB.jpg",
+        "url": "https://github.com/Alan2719/EmployeeTracker"
+    },
+    {
+        "id": 10,
+        "projectName": "Eat-da-burger",
+        "projectDescription": "In this application, the user is able to introduce their favorite burgers, save in the database, and view them in the frontend. The user is able to eat that burger with a button created when the name of the burger is displayed in the frontend. Once the burger, is eaten, it is displayed in the right side of the screen. For this application, I used express, handlebars, NodeJs, and MySQL. The application was desployed in Heroku.",
+        "image": "../Images/burger.jpg",
+        "url": "https://github.com/Alan2719/eat-da-burger"
+    },
+    {
+        "id": 11,
+        "projectName": "Handshake",
+        "projectDescription": "In our project 2, my team and I created an application where different kind of services could be post. A user, offering a service, can post their contact info. Another user, looking for a service, can look in the catalogue all the services available and contact the best qualified person to do the job. Inside the website, users are able to create a profile, and new categories. People can also leave comments about the service they hired for future users.",
+        "image": "../Images/handshake.jpg",
+        "url": "https://handshake-service-app.herokuapp.com/"
+    },
+    {
+        "id": 12,
+        "projectName": "Workout Tracker",
+        "projectDescription": "With this app, users can create new workout plans in which they can insert the type of exercise (resistance or cardio), weight, repetitions, time, distance and duration. The app is also able to measure the workout duration in minutes and the total pounds lifted in the workout. Finally, two pie charts show the exercise performed.",
+        "image": "../Images/workout.jpg",
+        "url": "https://workout-tracker-app3.herokuapp.com/?id=5f39b75c5126ee001796596a"
+    },
+    {
+        "id": 13,
+        "projectName": "Budget Tracker",
+        "projectDescription": "The aim of this app is to let users mark their incomes and outcomes even if the have internet or not. The data is stored in the indexedDB. Also, users are able to see a graph that shows the balance of their expenses. Finally, this application is a Web Progressive Application.",
+        "image": "../Images/budget.png",
+        "url": "https://budget-tracker-app2.herokuapp.com/"
+    },
+    {
+        "id": 14,
+        "projectName": "Employee Directory",
+        "projectDescription": "This is a react application in which you recieve a list of random employees from an API. These employees are rendered using react components. Inside the application, users are able to sort the employees by name. Also, use the search bar to find employees by their first name.",
+        "image": "../Images/directory.png",
+        "url": "https://employee-directory-app2.herokuapp.com/"
+    }
+]
