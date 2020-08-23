@@ -1,0 +1,104 @@
+.box {
+    margin-bottom: 5px;
+}
+
+.container .row .box .card .card-img-top {
+    transition: transform 0.2s;
+    opacity: 0.7;
+}
+
+/*Hover to the image*/
+.container .row .box .card .card-img-top:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.card-title {
+    z-index: 9999;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        transition: 0.2s;
+    }
+
+    .container .row .col-12 h2 {
+        font-size: 25px;
+    }
+
+    .container .row .col-12 .title {
+        width: 100%;
+    }
+
+    .container .row .box .card .card-body p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        transition: 0.2s;
+    }
+
+    .container .row .col-4 .card {
+        width: 220px;
+        margin-left: -5px;
+    }
+
+    .container .row .col-12 h2 {
+        font-size: 20px;
+    }
+
+    .container .row .box .card .card-body {
+        margin-top: -50px;
+    }
+
+    .container .row .box .card .card-body p {
+        font-size: 15px;
+    }
+
+    .container .row .col-12 .title {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .display .info .information p {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .display {
+        width: 80%;
+    }
+
+    .container {
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 575px) {
+    .display {
+        width: 80%;
+    }
+
+    .image {
+        flex: 100%;
+        max-width: 100% !important;
+    }
+
+    .information {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .display .info .image img {
+        width: 100px;
+        height: auto;
+    }
+
+    .display .info .information p {
+        font-size: 15px;
+    }
+}

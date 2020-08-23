@@ -1,21 +1,24 @@
 import React from "react";
-import Image from "../Images/planner.jpg";
+import Image from "../Images/background.jpg";
+import "../styles/portfolio.css";
 
 function CardBody(props) {
-    console.log(props.children[0]);
     return(
-        props.children.map(project => {
+        props.projects.map(project => {
             return(
-                <div className="col-lg-4 col-6 card">
-                    <img src={Image} className="card-img-top" alt="..."></img>
-                    <div className="card-img-overlay">
-                        <h3 className="card-title">{project.projectName}</h3>
-                        <a href={project.url} className ="btn btn-primary">See Description</a>
+                <div className="col-lg-4 col-md-6 col-sm-6 col-6 box">
+                    <div className="card">
+                        <a href={project.url} target="_blank" rel="noopener noreferrer"><img src={Image} className="card-img-top img-container" alt="..."></img></a>
+                        <div className="card-body">
+                            <h5 className="card-title" key={props.projects.id}>{project.projectName}</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" onClick={props.handleBtnClick} data-value={project.id} data-target="#staticBackdrop">
+                                See Description
+                            </button>
+                        </div>
                     </div>
                 </div>
             )
         })
-        
     )
 }
 

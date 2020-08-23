@@ -1,0 +1,10 @@
+.jumbotron {
+    background-color: rgb(252, 110, 85);
+    height: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 55px;
+}

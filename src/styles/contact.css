@@ -1,0 +1,95 @@
+.aside {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(252, 110, 85);
+    height: auto;
+    border-radius: 0.3em;
+}
+
+.aside ul {
+    list-style: none;
+}
+
+.aside .contacts li {
+    font-size: 19px;
+    margin-top: 20px;
+    color: black;
+}
+
+.form {
+    border-left: solid 2px black;
+    background-color: rgb(209, 209, 209);
+}
+
+/*Background color of the card header and font style*/
+.container .cardbox {
+    background-color: transparent;
+    border: none;
+} 
+
+.card-header {
+    border: none;
+}
+
+.container .card .card-header h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Background color of the card body and font style*/
+.container .body {
+    background-color: transparent;
+}
+
+.container .card .body .form-group label {
+    font-family: 'Arvo', serif;
+    float: left;
+    font-weight: bolder;
+}
+
+/*Background color of the card footer*/
+.container .card-footer {
+    background-color: transparent;   
+    border: none; 
+}
+
+@media (max-width: 768px) {
+    .aside {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .form {
+        border: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .aside {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .container {
+      width: 450px;
+    }
+
+    .form {
+        border: none;
+    }
+}
+
+.fa-linkedin {
+    color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-facebook-square {
+    color: black;
+}
+
+#ig {
+    color: black!important;
+}

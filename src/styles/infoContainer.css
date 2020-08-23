@@ -1,0 +1,24 @@
+.container-main {
+    display: flexbox;
+    flex-direction: column;
+    border: solid 1px black;
+    margin: auto;
+    width: 80%;
+    padding: 25px;
+    margin-bottom: 60px;
+    box-shadow: 1px 0px 5px rgba(0,0,0,.3);
+    background-color: white;
+    margin-top: -300px;
+}
+
+@media (max-width: 575px) {
+    .col-4 {
+        flex: 100%;
+        max-width: 100% !important;
+    }
+
+    .col-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
