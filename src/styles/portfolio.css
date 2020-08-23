@@ -13,8 +13,16 @@
     opacity: 1;
 }
 
-.card-title {
-    z-index: 9999;
+.title-card {
+    z-index: 1000000;
+    background-color: black;
+    margin-top: -105px;
+}
+
+.title-card h5 {
+    text-align: center;
+    color: white;
+    padding: 5px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -66,6 +74,10 @@
         font-size: 16px;
     }
 
+    .card-title {
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -75,6 +87,10 @@
 
     .container {
         transition: 0.2s;
+    }
+
+    .card-title {
+        margin-top: 50px;
     }
 }
 
@@ -100,5 +116,9 @@
 
     .display .info .information p {
         font-size: 15px;
+    }
+
+    .card-title {
+        margin-top: 50px;
     }
 }
