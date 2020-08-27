@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route exact path="/about" component={About} />
+        <Route exact path={["/react-portfolio","/about"]} component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
       </div>
