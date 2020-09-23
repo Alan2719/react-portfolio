@@ -3,98 +3,120 @@
       "id": 1,
       "projectName": "Password Generator",
       "projectDescription": "The purpose of this activity was to create a password generator. The user is able to decide which type of characters the password will have (uppercase letters, lowercase letters, numbers and special characters). The user is also able to decide the length of the password between 8 to 120 characters.",
-      "image": "https://wallpaperaccess.com/full/732257.jpg",
-      "url": "https://alan2719.github.io/PasswordGenerator/index.html"
+      "image": "https://article-imgs.scribdassets.com/3v403oao746qq0hr/images/fileZ6I8QFTH.jpg",
+      "url": "https://alan2719.github.io/PasswordGenerator/index.html",
+      "github": "https://github.com/Alan2719/PasswordGenerator"
     },
     {
         "id": 2,
         "projectName": "General Culture Quiz",
         "projectDescription": "In this activity, a general culture quiz was created. The player only has 20 seconds to answer 5 questions. Every time a question is correct , the player earns 5 extra seconds. If the answer is incorrect, the player looses 5 seconds. The final score is the seconds left in the timer. The users are able to save their score by typing your name.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://alan2719.github.io/GeneralCultureQuiz/index.html"
+        "image": "https://uk.vmcdn.ca/f/files/peterboroughmatters/images/stock-images/quiz.jpg;w=960",
+        "url": "https://alan2719.github.io/GeneralCultureQuiz/index.html",
+        "github": "https://github.com/Alan2719/GeneralCultureQuiz"
     },
     {
         "id": 3,
         "projectName": "Day Planner",
         "projectDescription": "The aim of this activity was to create a day planner to use it in your daily work. With this planner you are able to schedule your to do list per hour as well as modify or erase them once you have finished. The colors indicate if you are on time or is to late to late to perform the task.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://alan2719.github.io/DayPlanner/index.html"
+        "image": "https://carpetasalfa.com.mx/wp-content/uploads/2018/10/okAgenda-italiana-interior-semana-600x450.jpg",
+        "url": "https://alan2719.github.io/DayPlanner/index.html",
+        "github": "https://github.com/Alan2719/DayPlanner"
     },
     {
         "id": 4,
         "projectName": "Weather Dashboard",
         "projectDescription": "The purpose of this activity was to create a weather dashboard using the OpenWeather API. By searching the city, you are able to view the current temperature, wind speed, UV index, and Humidity. Also, you are able to visualize a 5 day forecast. The cities you have already searched are stored in case you want to check them again.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://alan2719.github.io/WeatherDashboard/index.html"
+        "image": "data:image/jpeg;base64,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",
+        "url": "https://alan2719.github.io/WeatherDashboard/index.html",
+        "github": "https://github.com/Alan2719/WeatherDashboard"
     },
     {
         "id": 5,
         "projectName": "Band Tracker",
         "projectDescription": "In our first project, my team and I created the Band Tracker website. In this website you are able to create an account and login to the site. The principal purpose of this site is to look for your favorite bands and have some information of them like the monthly listeners, playcount and the upcoming events. You are able to follow or unfollow your favorite artist. Finally, you can be redirected to another site to buy tickets from the next concert.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://alan2719.github.io/BandTracker/index.html"
+        "image": "https://cdn.vox-cdn.com/thumbor/0fPNabFt96yEmvSfyr7cHHZdjbw=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13292797/acastro_181016_1777_music_0001.jpg",
+        "url": "https://alan2719.github.io/BandTracker/index.html",
+        "github": "https://github.com/Alan2719/BandTracker"
     },
     {
         "id": 6,
         "projectName": "Team Generator",
         "projectDescription": "The aim of this application is to create an organization chart in which the user can create three types of positions, a manager, an engineer and an intern. Using the npm package inquirer, the user is asked fills the worker profile with different information depending of the position. At the end, an html file is created with the organization chart.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://github.com/Alan2719/team-generator"
+        "image": "https://www.keamk.com/images/level-draw.png?19012901",
+        "url": "https://github.com/Alan2719/team-generator",
+        "github": "https://github.com/Alan2719/team-generator"
     },
     {
         "id": 7,
         "projectName": "Note Taker",
         "projectDescription": "The purpose of this task was to create a note taker. This is the first activity in which a server was used as well as NodeJs, and express to develop the backend. The application lets the user to save notes. When a note is no longer useful, you can delete it. The deployment of this application was made in Heroku.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://shrouded-thicket-71970.herokuapp.com/"
+        "image": "https://s3.amazonaws.com/product.images.bellroy.com/product_images/images/000/017/184/original/1605c50101d91f0bc4c834c32c5b7ec54092da2a40afea5be29f113335f263db.jpeg",
+        "url": "https://shrouded-thicket-71970.herokuapp.com/",
+        "github": "https://github.com/Alan2719/Note-Taker"
     },
     {
         "id": 8,
         "projectName": "Readme Generator",
         "projectDescription": "In this task a readme file generator was created. When the application is running, the user needs to insert the title of the readme file, description, installation, usage, license, and some other questions. In this case, the package inquirer is used. Also, promises are used to the application run correctly.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://github.com/Alan2719/ReadmeGenerator"
+        "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Yq5yTPVt--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://user-images.githubusercontent.com/9840435/59461914-cbc18380-8e22-11e9-8567-87b43da950ac.png",
+        "url": "https://github.com/Alan2719/ReadmeGenerator",
+        "github": "https://github.com/Alan2719/ReadmeGenerator"
     },
     {
         "id": 9,
         "projectName": "Employee Tracker",
         "projectDescription": "In this application, a company database was created. The database contains 3 tables, department, position, and employee. Using inquirer and MySQL, the user is able to create new departments, roles, and insert new employees to the database. The application is also able to display just the information the user want to see intercacting with the database.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://github.com/Alan2719/EmployeeTracker"
+        "image": "https://itimepunchplus.com/blog/wp-content/uploads/2020/06/Multi-User-automated-employee-hours-tracker-app.jpg",
+        "url": "https://github.com/Alan2719/EmployeeTracker",
+        "github": "https://github.com/Alan2719/EmployeeTracker"
     },
     {
         "id": 10,
         "projectName": "Eat-da-burger",
         "projectDescription": "In this application, the user is able to introduce their favorite burgers, save in the database, and view them in the frontend. The user is able to eat that burger with a button created when the name of the burger is displayed in the frontend. Once the burger, is eaten, it is displayed in the right side of the screen. For this application, I used express, handlebars, NodeJs, and MySQL. The application was desployed in Heroku.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://github.com/Alan2719/eat-da-burger"
+        "image": "https://www.thespruceeats.com/thmb/XO45nn2PpC7dFQO5A8-Q8_hUY5Q=/4048x2696/filters:fill(auto,1)/juicy-baked-burgers-3052097-hero-01-c9e134a9f357424c8bd6fc67149ad4c0.jpg",
+        "url": "https://github.com/Alan2719/eat-da-burger",
+        "github": "https://github.com/Alan2719/eat-da-burger"
     },
     {
         "id": 11,
         "projectName": "Handshake",
         "projectDescription": "In our project 2, my team and I created an application where different kind of services could be post. A user, offering a service, can post their contact info. Another user, looking for a service, can look in the catalogue all the services available and contact the best qualified person to do the job. Inside the website, users are able to create a profile, and new categories. People can also leave comments about the service they hired for future users.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://handshake-service-app.herokuapp.com/"
+        "image": "https://azurecomcdn.azureedge.net/cvt-e2d0ecb4518d8b3cc7620126a4ab54a317c30d47b0a37e44f28d5e75fa4274b4/images/page/services/devops/hero-images/index-hero.jpg",
+        "url": "https://handshake-service-app.herokuapp.com/",
+        "github": "https://github.com/Alan2719/Project_2"
     },
     {
         "id": 12,
         "projectName": "Workout Tracker",
         "projectDescription": "With this app, users can create new workout plans in which they can insert the type of exercise (resistance or cardio), weight, repetitions, time, distance and duration. The app is also able to measure the workout duration in minutes and the total pounds lifted in the workout. Finally, two pie charts show the exercise performed.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://workout-tracker-app3.herokuapp.com/?id=5f39b75c5126ee001796596a"
+        "image": "https://androidayuda.com/app/uploads-androidayuda.com/2020/07/strong-workout-tracker.jpg",
+        "url": "https://workout-tracker-app3.herokuapp.com/?id=5f39b75c5126ee001796596a",
+        "github": "https://github.com/Alan2719/workout-tracker"
     },
     {
         "id": 13,
         "projectName": "Budget Tracker",
         "projectDescription": "The aim of this app is to let users mark their incomes and outcomes even if the have internet or not. The data is stored in the indexedDB. Also, users are able to see a graph that shows the balance of their expenses. Finally, this application is a Web Progressive Application.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://budget-tracker-app2.herokuapp.com/"
+        "image": "https://www.workflowmax.com/hubfs/budget%20900x400v2.png",
+        "url": "https://budget-tracker-app2.herokuapp.com/",
+        "github": "https://github.com/Alan2719/budget-tracker"
     },
     {
         "id": 14,
         "projectName": "Employee Directory",
         "projectDescription": "This is a react application in which you recieve a list of random employees from an API. These employees are rendered using react components. Inside the application, users are able to sort the employees by name. Also, use the search bar to find employees by their first name.",
-        "image": "https://wallpaperaccess.com/full/732257.jpg",
-        "url": "https://employee-directory-app2.herokuapp.com/"
+        "image": "https://serpstar.org/wp-content/uploads/2013/10/article-directory-example.jpg",
+        "url": "https://employee-directory-app2.herokuapp.com/",
+        "github": "https://github.com/Alan2719/employee-directory"
+    },
+    {
+        "id": 15,
+        "projectName": "Arctic Tern",
+        "projectDescription": "Full Stack application developed in react which allows users to look for flights with the best costs. Another feature is that users are able to create a checklist for that trip. Finally, in the agenda section, you can see all your trips details and use a map to search places near your location. ",
+        "image": "https://media.cnnchile.com/sites/2/2019/08/viajar-a-chile-en-avion-740x430.jpg",
+        "url": "https://arctic-tern.herokuapp.com/",
+        "github": "https://github.com/Alan2719/final-project"
     }
 ]

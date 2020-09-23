@@ -2,6 +2,10 @@
     margin-bottom: 5px;
 }
 
+.card-img-top-2 {
+    height: 230px;
+}
+
 .container .row .box .card .card-img-top {
     transition: transform 0.2s;
     opacity: 0.7;
@@ -41,6 +45,10 @@
     .container .row .box .card .card-body p {
         font-size: 18px;
     }
+
+    .card-img-top-2 {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -78,6 +86,10 @@
         margin-top: 50px;
     }
 
+    .card-img-top-2 {
+        height: 200px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -91,6 +103,10 @@
 
     .card-title {
         margin-top: 50px;
+    }
+
+    .card-img-top-2 {
+        height: 170px;
     }
 }
 
@@ -121,4 +137,13 @@
     .card-title {
         margin-top: 50px;
     }
+
+    .card-img-top-2 {
+        height: 220px;
+    }
+}
+
+.btn-primary {
+    background-color: coral;
+    border: solid 1px black;
 }
