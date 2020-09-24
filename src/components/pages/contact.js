@@ -1,9 +1,51 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Container from "../container";
 import Row from "../../components/projectsContainer";
-import "../../styles/contact.css"
+import "../../styles/contact.css";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact () {
+
+    toast.configure();
+
+    const nameInput = useRef();
+    const mailInput = useRef();
+    const messageInput = useRef();
+
+    function handleInfo(event) {
+        let name = nameInput.current.value;
+        let email = mailInput.current.value;
+        let message = messageInput.current.value;
+        if (name === "" || email === "" || message === "") {
+            displayToast("Information is missing", "error")
+        } else {
+            displayToast("Your message has been sent, thanks!", "success");
+            nameInput.current.value = "";
+            mailInput.current.value = "";
+            messageInput.current.value = "";
+        }
+    }
+
+    function displayToast(message, type) {
+        let options = {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        };
+        if (type === "error") {
+          toast.error(message, options);
+        } else if (type === "success") {
+            toast.success(message, options);
+        } else {
+          console.error("Wrong Toast Type");
+        }
+    }
+
     return(
         <Container>
             <Row>
@@ -27,20 +69,20 @@ function Contact () {
                             <form className="data">
                                 <div className="form-group">
                                     <label for="exampleFormControlInput1">Name</label>
-                                    <input type="text" className="form-control name" id="name exampleFormControlInput1" placeholder="Write your name"></input>
+                                    <input type="text" className="form-control name" ref={nameInput} id="name exampleFormControlInput1" placeholder="Write your name"></input>
                                 </div>
                                 <div className="form-group">
                                     <label for="exampleFormControlInput1">Email address</label>
-                                    <input type="email" className="form-control mail" id="mail exampleFormControlInput1" placeholder="Write your email"></input>
+                                    <input type="email" className="form-control mail" ref={mailInput} id="mail exampleFormControlInput1" placeholder="Write your email"></input>
                                 </div>
                                 <div className="form-group">
                                     <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea className="form-control text" id="text exampleFormControlTextarea1" rows="3" placeholder="Leave a message"></textarea>
+                                    <textarea className="form-control text" ref={messageInput} id="text exampleFormControlTextarea1" rows="3" placeholder="Leave a message"></textarea>
                                 </div>
                             </form>
                         </div>
                         <div className="card-footer text-muted">
-                            <button id="submit" type="button" className="btn btn-primary">Submit</button>
+                            <button id="submit" onClick={() => handleInfo()} type="button" className="btn btn-primary">Submit</button>
                         </div>
                     </div>
                 </div>
